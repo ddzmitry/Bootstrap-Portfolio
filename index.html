@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dzmitry Dubarau Portfolio Page</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/prefixfree.min.js"></script><!--  Script for different browsers to inject styles like gradients etc. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<!-- data-spy="scroll" data-target=".navbar-fixed-top"  Goes in body part if need to spy without JS-->
+<body  >
+
+
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+  <div class="navbar-header"> 
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false"> <!-- applied to class navbar with to ID collapse ,shows as one single button for mobile view -->
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>  
+            <a class="navbar-brand" href="#featured"><h1>Dzmitry Dubarau <span class="subhead">Web Developer in training</span></h1></a>
+  </div><!-- navbar-header -->
+              <div class="collapse navbar-collapse" id="collapse">
+                          <ul class="nav navbar-nav navbar-right">
+                           <li class="active"><a href="#featured">Home</a></li>
+                          <li><a href="#aboutme">About me</a></li>
+                          <li><a href="#portfolio">Portfolio</a></li>
+                          <li><a href="#moreinfo">More Info</a></li>
+                          </ul>
+              </div><!-- collapse -->
+  </div><!-- container navbar -->
+ 
+
+  </nav>
+
+  <div class="carousel fade" data-ride="carousel" id="featured">
+               <!--  data-ride="carousel" to talk to JS  -->
+
+                    <ol class="carousel-indicators">
+                        </ol>
+
+
+
+
+               <div class="carousel-inner fullheight">
+                    <div class="item active">
+                    <h2 class="carousel-caption pull-left"> - “Websites promote you 24/7: No employee will do that.” 
+                                                                                        <span><p class="text-info">― Paul Cookson</p></span></h2>
+                <img src="images/keyboard.jpeg" alt="keyboard">
+                     </div> <!-- each picture in item div for carousel NB! -->
+
+                    <div class="item">
+                    <h2 class="carousel-caption pull-left"> - “Intuitive design is how we give the user new superpowers.”
+                    <span><p class="text-info">– Jared Spool, Web Site Usability: A Designer’s Guide</p></span> </h2>
+                <img src="images/code.jpeg" alt="code">
+                      </div>  
+                    
+                    <div class="item">
+                    <h2 class="carousel-caption pull-left text-success"> - “Great web design without functionality is like a sports car with no engine.”
+                    <span><p class="text-info">― Paul Cookson</p></span></h2>
+                <img src="images/mouse.jpeg" alt="mouse">
+                    </div>
+                  
+                    <div class="item">
+                    <h2 class="carousel-caption pull-left"> - “The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring.” <span><p class="text-info">– Paul Rand</p></span></h2>
+                <img src="images/lorem.png" alt="Lorem">
+                    </div>
+
+                                        </div><!--  carousel-inner fullheight -->
+               </div><!-- carousel inner WHAT inside Carousel -->
+  <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a> <!-- left carousel -->
+
+
+  <a class="right carousel-control" href="#featured" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a> <!-- right carousel -->
+           
+  </div><!-- featured carousel slide -->
+
+</header>
+
+<div class="main">
+  <div class="page " id="aboutme">
+
+  <div class="content container">
+    <h2>About me</h2>
+      <div class="row">
+       <p class="col-md-5 col-md-offset-1">I am currently studying Web Development at UNCC Charlotte and will graduate in May of 2017 with a full stack web development certification, also obtained and still working on more certificates by studying on my own on Lynda.com. You can check my profile on LinkedIn where you can see my all achievements.</p>
+
+
+      <p class="col-md-5 col-md-offset-1">Five years ago I moved to the United Status , and have worked in the restaurant industry (summers/holidays/evenings) as a Chef de Cuisine. In this position, I have earned a reputation for consistently exceeding company and customer expectations. I have been asked to lead people and different events throughout my career, and I always succeeded. In addition, I am fluent in Russian and Belorussian languages. I have great communication and leadership skills. Always ready to go above and beyond  to  achieve  success.</p> 
+
+      </div> <!-- row with 2p -->
+    
+
+  </div> <!-- content container -->
+   
+  </div><!-- mission page -->
+
+  <div class="page" id="portfolio">
+
+  <div class="content container">
+    
+            
+
+              <h2>Portfolio</h2>
+  <div class="row">
+                          <article class="service col-md-4 col-sm-6 col-xs-12">
+                <a href="https://github.com/ddzmitry" target="_blank" > <img class="icon" src="images/cup.png" alt="Icon"></a>
+                <h3>Cup of Code</h3>
+                <p>Probably, I will create something here! This cup will take you straight to my GitHub profile.</p>
+              </article>
+
+              <article  class="service col-md-4 col-sm-6 col-xs-12">
+                <img class="icon" src="images/macbook.png" alt="Icon">
+                <h3>Programming</h3>
+                <p>Once I will learn more JavaScript I will be able to post some awesome code here!</p>
+              </article>
+
+              <article class="service col-md-4 col-sm-6 col-xs-12">
+                 <a href="https://www.linkedin.com/in/dzmitry-dubarau-0aa27b72" target="_blank" > <img class="icon" src="images/linked.png" alt="Icon"></a>
+                <h3>LinkedIn</h3>
+                <p>You can check my profile on LinkedIn just by clicking on that icon.</p>
+              </article>
+
+</div> <!-- row -->
+                </div><!-- content container -->
+                      </div> <!-- portfolio -->
+
+
+  <div class="page" id="moreinfo">
+
+  <div class="container-fluid">
+
+    <h2 id="ourstaff">More Info</h2>
+      <div class="row">
+        
+                        <div class="moretext col-lg-4">
+                            <div class="row">
+
+                                <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
+                                  <img class="img-circle" src="images/mail.png" alt="Photo of Dr Sanders">
+                                </div> <!-- photo -->
+                                <div class=" col-xs-8  col-xs-offset-2 col-sm-7 col-sm-offset-0 info col-md-6 col-lg-8">
+                                  <h3>Mail</h3>
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus fugit, quo incidunt earum tenetur eaque deleniti quas. Dolorem perferendis sapiente numquam hic cumque saepe neque debitis officiis sint, voluptate quibusdam!</p>
+                                </div><!--  info -->          
+                       </div> <!-- moretext -->
+                           </div> <!-- inner row for each article -->
+
+
+
+                        <div class="moretext col-lg-4">
+                            <div class="row">
+
+                                 <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
+                                  <img class="img-circle" src="images/logo.png"  alt="Photo of Dr Sanders">
+                                </div> <!-- photo -->
+                                 <div class=" col-xs-8  col-xs-offset-2 col-sm-7 col-sm-offset-0 info col-md-6 col-lg-8">
+                                  <h3>Logo</h3>
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ut modi libero quam optio quisquam culpa id nemo voluptatum nostrum recusandae, quasi doloribus sit vel repudiandae fuga! Dicta, voluptate, minima?</p>
+                                </div><!--  info -->          
+                       </div> <!-- moretext -->
+                           </div> <!-- inner row for each article -->
+
+
+                                          <div class="moretext col-lg-4">
+                            <div class="row">
+
+                                 <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
+                                  <img class="img-circle" src="images/portfolio.png" alt="Photo of Dr Sanders">
+                                </div> <!-- photo -->
+                                 <div class=" col-xs-8  col-xs-offset-2 col-sm-7 col-sm-offset-0 info col-md-6 col-lg-8">
+                                  <h3>Portfolio</h3>
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eum deleniti, illo fuga voluptates doloribus voluptatum non. Culpa, voluptatibus, nam. Veniam deserunt molestiae sed, pariatur, iusto ex eius delectus odit!</p>
+                                </div><!--  info -->          
+                       </div> <!-- moretext -->
+                           </div> <!-- inner row for each article -->
+
+                                         </div><!-- outer row -->
+
+               </div><!-- container -->
+    
+          </div><!-- staff page -->
+
+    </div><!-- main -->
+
+
+<footer>
+      <div class="content container-fluid">
+        <div class="row">
+               <div class="col-sm-6">
+                 <p>Call me at <span class=" glyphicon glyphicon-phone"></span> <span class="phone">757-318-0252</span></p>
+                 <p>All contents &copy; 2016 <a href="https://www.linkedin.com/in/dzmitry-dubarau-0aa27b72">Dzmitry Dubarau</a>. All rights reserved.</p>
+               </div> <!-- callme half page 6 col -->
+              
+
+                <div class="col-sm-6">
+                   <nav class="nav navbar-default" role="navigation">
+                <ul class=" nav navbar-nav navbar-right">
+                  <li >Email Me <span class="glyphicon glyphicon-envelope"></span> <a href="#">ddzmitry@yhaoo.com</a></li>
+
+
+
+
+                                 </ul>
+
+
+              </nav>
+                                
+               </div> <!-- other  6 col -->
+          
+        </div><!--  footer row -->
+
+ </div><!-- content container footer -->
+
+</footer>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="js/myscript.js"></script>
+</body>
+</html>
